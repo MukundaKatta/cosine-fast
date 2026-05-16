@@ -1,0 +1,15 @@
+[package]
+name = "cosine-fast"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.74"
+description = "Hot-loop cosine similarity for f32 slices. Auto-vectorized scalar core, optional precompute-norms helper. Zero deps."
+authors = ["Mukunda Rao Katta <mukunda.vjcs6@gmail.com>"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/MukundaKatta/cosine-fast"
+homepage = "https://github.com/MukundaKatta/cosine-fast"
+documentation = "https://docs.rs/cosine-fast"
+readme = "README.md"
+keywords = ["cosine", "embedding", "similarity", "vector", "ann"]
+categories = ["algorithms", "mathematics"]
+exclude = [".github/*", "target/*"]
